@@ -8,23 +8,23 @@ This is a web application that supports differential pricing for products/servic
 ```
 git clone <repository_url>
 ```
-3. Install the required packages:
+2. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
-5. Apply the database migrations:
+3. Apply the database migrations:
 ```
 python manage.py migrate
 ```
-7. Create a superuser to access the Django Admin:
+4. Create a superuser to access the Django Admin:
 ```
 python manage.py createsuperuser
 ```
-9. Start the development server:
+5. Start the development server:
 ```
 python manage.py runserver
 ```
-11. Access the application at `http://127.0.0.1:8000/`.
+6. Access the application at `http://127.0.0.1:8000/`.
 
 ## Usage
 
